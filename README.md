@@ -1,17 +1,15 @@
-<strong>Offer Management Rest Service</strong></br>
-
+<strong>Offer Management Rest Service</strong></br></br>
 This web service allows offer to be managed via REST 
 
-<strong>Technology Stack</strong></br>
-
+<strong>Technology Stack</strong></br></br>
 Spring Boot</br>
 Embeded H2 </br>
 Spring MVC Framework</br>
 Maven</br>
 Jersey</br>
-Mockito</br></br>
-<ul/>
-<strong>Assumptions</strong></br>
+Mockito</br>
+
+<strong>Assumptions</strong></br></br>
 Expiry date is in ISO Date Time format (2019-03-25T00:00:00.000) </br>
 All domain fields are mandatory </br>
 No i18n support </br>
@@ -43,4 +41,6 @@ Response with the cancelled offer </br></br>
   
 Request to get offer by id: GET http://localhost:8080/api/offer/{id} </br>
 Response with the offer</br></br>
+
+<strong>Build and Run</strong></br></br>
 
